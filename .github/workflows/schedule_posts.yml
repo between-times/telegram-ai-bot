@@ -53,16 +53,17 @@ jobs:
           echo "=== Логи бота ==="
           cat combined_app.log || echo "Файл логов не создан"
 
-      - name: Commit and push changes
+      - name: Commit processed prompts
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           
-          git add input.txt combined_app.log images/ image_prompts.txt
+          # Добавляем только файлы с промптами
+          git add input.txt image_prompts.txt
           
           if git diff --cached --quiet; then
             echo "Нет изменений для коммита"
           else
-            git commit -m "Auto: Update files after bot run [skip ci]"
+            git commit -m "Auto: Update processed prompts [skip ci]"
             git push
           fi

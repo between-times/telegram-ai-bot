@@ -3,7 +3,7 @@ name: Schedule Telegram Posts
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 * * * *'
+    - cron: '30 * * * *'  # Каждый час в 30 минут
 
 jobs:
   publish:
@@ -14,20 +14,26 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+          cache: 'pip'
 
       - name: Create required files
         run: |
           mkdir -p images
-          [ -f input.txt ] || echo "Тестовый промпт" > input.txt
+          if [ ! -f input.txt ]; then
+            echo "Тестовый промпт" > input.txt
+          fi
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Run Telegram bot
         env:
@@ -37,23 +43,31 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           python telegram_bot.py
-          cat combined_app.log
+          echo "=== Bot logs ==="
+          cat combined_app.log || echo "No log file found"
 
-      - name: Upload logs
+      - name: Upload debug artifacts
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: debug-data
+          name: bot-debug-data
           path: |
             combined_app.log
             images/
             input.txt
             image_prompts.txt
+          retention-days: 1
 
-      - name: Update input file
+      - name: Update processed prompts
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+          
           git add input.txt
-          git diff --cached --quiet || git commit -m "Update input.txt"
-          git push
+          
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto: Update processed prompts [skip ci]"
+            git push
+          fi

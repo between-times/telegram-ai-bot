@@ -3,46 +3,33 @@ name: Schedule Telegram Posts
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 * * * *'  # Каждый час в 30 минут
+    - cron: '30 * * * *'
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      packages: read
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-          cache: 'pip'
-
-      - name: Create input file if not exists
-        run: |
-          if [ ! -f input.txt ]; then
-            echo "Пример промпта для теста" > input.txt
-          fi
-          mkdir -p images
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Debug - List files
+      - name: Create required files
         run: |
-          ls -la
-          echo "Содержимое input.txt:"
-          cat input.txt || echo "Файл input.txt не существует"
+          mkdir -p images
+          [ -f input.txt ] || echo "Тестовый промпт" > input.txt
 
-      - name: Run bot
+      - name: Run Telegram bot
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -50,20 +37,23 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           python telegram_bot.py
-          echo "=== Логи бота ==="
-          cat combined_app.log || echo "Файл логов не создан"
+          cat combined_app.log
 
-      - name: Commit processed prompts
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: debug-data
+          path: |
+            combined_app.log
+            images/
+            input.txt
+            image_prompts.txt
+
+      - name: Update input file
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          
-          # Добавляем только файлы с промптами
-          git add input.txt image_prompts.txt
-          
-          if git diff --cached --quiet; then
-            echo "Нет изменений для коммита"
-          else
-            git commit -m "Auto: Update processed prompts [skip ci]"
-            git push
-          fi
+          git add input.txt
+          git diff --cached --quiet || git commit -m "Update input.txt"
+          git push

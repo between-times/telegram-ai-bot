@@ -2,8 +2,8 @@ name: Schedule Telegram Posts
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '30 * * * *'  # Каждый час в 30 минут
+ # schedule:
+   # - cron: '30 * * * *'  # Каждый час в 30 минут
 
 jobs:
   publish:

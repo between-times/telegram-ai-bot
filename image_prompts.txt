@@ -90,3 +90,66 @@ On the right side, her reflection in a full-length mirror reveals the final resu
 
 The atmosphere is serene yet urgent, blending the chaos of a rushed morning with the calm of a mastered ritual. Soft shadows under her eyes are subtly erased by the makeup, while her posture radiates self-assurance. The background includes a minimalist vanity with a few scattered beauty products, a steaming cup of coffee, and a cityscape visible through the window
 
+2025-07-07 21:22:51 - **Prompt:**  
+A realistic, emotionally evocative scene depicting a person in a dimly lit, cluttered bedroom, their face half-lit by a faint, cold glow from a smartphone screen (battery icon showing 3% charge) on the nightstand. The atmosphere is tense and oppressive: shadows cling to the walls, the room feels cramped with scattered clothes, a half-empty coffee mug, and a clock displaying 3:00 AM. The person’s expression is hollow, with dark circles under their eyes, disheveled hair, and a slumped posture, their hands gripping the phone as if it’s the only thing keeping them awake. In the background, faint outlines of distractions—blinking lights from a TV, a buzzing fridge, and a glowing laptop—hint at the modern world’s intrusion.  
+
+Contrast this with a secondary, softer focal point: a window slightly ajar, letting in warm golden light from
+
+2025-07-08 11:37:42 - **Prompt:**  
+A realistic, humorous scene capturing the absurdity of human-cat communication attempts. A human, mid-30s, wearing a cozy sweater and glasses, is crouched on the floor in a sunlit living room, making exaggerated, animated gestures with both hands while leaning forward with a determined, slightly bewildered expression. Their face is flushed with effort, and they’re surrounded by scattered cat toys, a half-eaten treat, and a phone displaying the message Content Temporarily Unavailable (though no text is visible on the image itself). In the center of the frame, a sleek, gray tabby cat lounges lazily on a windowsill, its tail flicking nonchalantly as it gazes out at the street with a serene, indifferent gaze. The cats fur is perfectly groomed, eyes narrowed in mild amusement, and one paw is casually tucked beneath its chest. The room is warm and cluttered with books, plants, and a cat tree in the background, emphasizing the domestic setting. The lighting is soft, golden-hour glow through the window, casting gentle shadows that highlight the humans physical comedy and the cats aloof superiority. Focus on the contrast between the humans animated energy and the cats calm detachment, with subtle details like a crumpled paper ball nearby (the humans failed attempt to engage) and the cats tail subtly swishing away from the chaos. No text or labels—pure visual storytelling of feline indifference.  
+
+**Key Visual Elements:**  
+- Humans exaggerated body language (arms flailing, head tilted awkwardly).  
+- Cats relaxed posture and unbothered expression.  
+- Warm, natural lighting to evoke a domestic, relatable atmosphere.  
+- Background clutter (books, plants, cat tree) to ground the scene.  
+- Symbolic props (crumpled paper ball, phone) to hint at the humor without words.  
+- Focus on the emotional contrast: humans desperation vs. cats calm superiority.
+
+2025-07-08 12:02:20 - **Prompt:**  
+A realistic, emotionally charged portrait of a young woman in her late 20s, standing alone in a dimly lit, slightly cluttered bedroom. Her face is partially illuminated by the soft glow of a desk lamp, casting warm, diffused light across her features while leaving the shadows of her room deep and moody. She wears a simple, slightly rumpled cotton dress in muted gray, her posture tense yet introspective, one hand gripping the edge of a wooden doorframe as if resisting the urge to close it behind her. Her eyes are downcast, reflecting a mix of quiet sadness and resolute determination, with faint tear tracks visible on her cheeks.  
+
+In the background, a cracked mirror on the wall reflects her silhouette but distorts it slightly, symbolizing fragmented self-perception. A small notebook lies open on the floor near her feet, its pages filled with handwritten notes in a messy, emotional scrawl—phrases like *I’m not strange, I’m just me* and *Why do you see flaws where I see truth?* peek through the pages. A faint, blurred silhouette of a man (her partner) looms in the doorway, his face indistinct, but his posture dismissive, arms crossed. The atmosphere is heavy with unspoken tension, the room’s cool tones (blues, grays) contrasting with the warm light on her face, emphasizing her inner conflict between vulnerability and self-worth.  
+
+The composition focuses on her emotional state: the door as a threshold between self-acceptance and compromise, the mirror as a symbol of her struggle to reconcile others’ perceptions with her true identity, and the scattered notes as evidence of her internal dialogue. Subtle details—a half-empty glass of water on the nightstand, a curtain fluttering in the breeze—add to the sense of a moment suspended between decision and reflection. The image should evoke a quiet, haunting realism, capturing the weight of unspoken words and the courage to reclaim one’s uniqueness.  
+
+**Style:** Hyper-realistic, cinematic lighting, muted color palette with warm and cool contrasts, symbolic elements layered into the scene to convey psychological depth.
+
+2025-07-08 12:03:41 - **Prompt for Realistic Image Generation:**  
+
+**Subject:** A contemplative man in his late 20s to early 30s, seated alone in a softly lit, minimalist room. His posture is relaxed yet introspective, with one hand resting on his knee and the other gently tracing the edge of a small, open journal on the table beside him. His gaze is downward, focused on a mirror in front of him, reflecting his face partially. His expression is a mix of calm vulnerability and quiet determination, as if he’s just begun to confront a long-ignored truth.  
+
+**Setting:** The room is modern and neutral, with muted tones of beige, gray, and soft blue. A large window to the left reveals a blurred cityscape at dusk, symbolizing the external pressures of society. A single potted plant with lush green leaves sits on the windowsill, adding a touch of life and growth. The mirror is framed with simple wooden edges, and faint shadows on the floor suggest the passage of time or the weight of unspoken thoughts.  
+
+**Lighting:** Warm, diffused light streams through the window, casting gentle highlights on the man’s face and the journal. A soft glow emanates from a desk lamp behind him, creating a subtle contrast between the natural light and the artificial glow, symbolizing the duality of external expectations and internal reflection.  
+
+**Details:**  
+- The man’s clothing is casual but slightly formal—a light-colored sweater and slacks, hinting at societal norms he’s trying to reconcile.  
+- The journal’s pages are visible, with handwritten notes in a flowing, emotional script: “What inspires me?” and “What do I truly want?”—subtle clues to his self-inquiry.  
+- A small heart-shaped pendant hangs from a chain around his neck, partially visible, symbolizing the hidden
+
+2025-07-08 13:42:40 - **Prompt for AI Image Generation:**  
+Create a realistic, high-detail scene depicting a young professional in a cozy, cluttered home office during late afternoon. The room is bathed in warm golden-hour light streaming through a half-closed window, casting soft shadows on a wooden desk. On the desk, a steaming coffee mug sits beside a crumpled receipt and a laptop displaying a budget spreadsheet with highlighted red numbers and green checkmarks. A stack of books and a notebook with scribbled notes on side hustles (freelance gigs, online courses) are organized neatly. A calendar on the wall shows upcoming deadlines and goals, with a few dates marked in bold. A plant in a corner symbolizes growth, its leaves reaching toward a small desk lamp. In the background, a framed photo of a smiling person (representing future success) hangs on the wall, while a backpack with a laptop and tools for side jobs (e.g., a delivery uniform, design software) leans against a chair. The atmosphere is hopeful yet grounded, blending the mundane (coffee, clutter) with the aspirational (lighting, organized plans). Focus on textures: the grain of the wood, the steam from the coffee, the soft glow of the laptop screen, and the subtle wear on the notebook. The subject’s expression is determined, eyes focused on the laptop, hands gripping a pen with purpose. Use muted earthy tones for the walls and furniture, accented with vibrant pops of color from the calendar, plants, and digital devices to symbolize progress and potential. Avoid any text or labels, relying on visual storytelling to convey the message of incremental financial growth through self-improvement and diversified income streams.  
+
+**Key Visual Elements:**  
+- **Symbolism of current struggle:** Coffee mug, crumpled receipt, and a slightly disheveled desk.  
+- **Pathways to growth:** Laptop with budget
+
+2025-07-08 13:50:47 - **Prompt (English):**  
+Realistic image of a determined young professional in a modern, minimalist home office, surrounded by elements symbolizing career growth and financial empowerment. The scene features a cluttered desk with a laptop open to freelance platforms (Upwork, Fiverr) and online course tabs (e.g., graphic design, SEO, database management). A steaming coffee cup sits nearby, but its label is crossed out with a red X, while a stack of books and a tablet with subscription logos (like Coursera or Skillshare) are prominently displayed. The person, mid-30s, wears glasses and has focused, energetic body language, typing on the keyboard with a confident smile. In the background, a whiteboard shows a roadmap with milestones like Learn Micro-Skills, Build Portfolio, Monetize Mini-Projects, and Invest in Growth. A smartphone on the desk displays social media apps (Instagram, TikTok, Telegram) with active posts and a growing follower count. A small plant on the windowsill represents progress, and a calendar with checkmarks and a 1-2 hours daily note adds urgency. The lighting is warm and inviting, casting soft shadows to emphasize focus and motivation. The atmosphere is vibrant, hopeful, and driven, capturing the essence of taking small steps toward big changes.  
+
+**Key Visual Elements:**  
+- **Central figure:** A diverse, relatable individual (gender-neutral, casual attire) showing determination through posture and expression.  
+- **Symbols of action:** Laptop with course/freelance tabs, smartphone with social media metrics, books, and a tablet.  
+- **Contrast:** A crossed-out coffee cup vs. investment items (books, subscriptions) to highlight the shift from spending to growth.  
+- **Progress indicators:** Whiteboard roadmap, calendar with checkmarks, and a thriving plant.  
+- **Color palette:** Warm neutrals (beige
+
+2025-07-08 14:13:56 - **Prompt for AI Image Generation:**  
+Realistic, high-detail scene of a human interacting with a dog in a cozy, modern living room. The human is seated on a plush sofa, speaking in a flat, monotonous tone to a medium-sized golden retriever. The dog’s body language conveys disinterest: its ears are drooped, eyes half-closed, tail limp, and it’s yawning while looking away from the person. In the background, a half-finished puzzle toy lies on the floor, and a leash hangs on the wall, hinting at the suggestion to add activities. Contrast this with a subtle visual cue—perhaps a faint shadow or reflection—showing the same human and dog in a dynamic, engaging moment: the human’s voice is now cheerful and varied, the dog’s ears are perked, tail wagging, and it’s leaning forward with eager eyes. The atmosphere is warm, with soft natural light streaming through large windows, casting gentle shadows. Focus on the emotional shift in the dog’s expression and posture, emphasizing the natural response to monotony versus stimulation. Use authentic textures for the dog’s fur, the sofa, and the room’s decor to enhance realism. No text or labels—only the visual storytelling of the dog’s reaction to vocal tone changes.  
+
+**Key Visual Elements to Highlight:**  
+- **Dog’s disinterest:** Yawning, closed eyes, lack of eye contact, and a passive posture.  
+- **Human’s monotone interaction:** Neutral facial expression, static body language, and a flat voice.  
+- **Contrast with engagement:**
+
